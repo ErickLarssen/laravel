@@ -23,9 +23,10 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1" style="display: block; margin-top: 5px; color: white;">Verificar</label>
         </div>
-        <a href="{{ url('/home') }}">
-            <button type="submit" class="btn btn-danger" style="width: 100%; padding: 12px; font-weight: 500; background-color: white; color: red;">Entrar</button><br>
-        </a>
+        <button type="button" onclick="window.location.href='{{ url('/home') }}'" class="btn btn-danger" style="width: 100%; padding: 12px; font-weight: 500; background-color: white; color: red;">
+            Entrar
+        </button>
+
         <button type="submit" class="btn btn-danger" style="width: 100%; padding: 12px; font-weight: 500; background-color: white; color: red;">Voltar</button>
     </form>
 
